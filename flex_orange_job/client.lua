@@ -16,7 +16,7 @@ local collectingOranges = false
 local currentStep = ""
 local stepCompleted = {start = false, collect = false, sell = false}
 
--- Blip für den Startmarker hinzufügen
+-- Blip für den Startmarker 
 Citizen.CreateThread(function()
     local blip = AddBlipForCoord(startCoords.x, startCoords.y, startCoords.z)
     SetBlipSprite(blip, 1)
